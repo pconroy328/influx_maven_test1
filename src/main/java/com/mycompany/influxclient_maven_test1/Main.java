@@ -28,7 +28,8 @@ public class Main {
     {
         System.out.println( "Starting " + version );
         
-        
+        //
+        // foo
         System.out.println( "Attempting to connect to InfluxDB server on " + databaseURL );
         InfluxDB influxDB = InfluxDBFactory.connect( databaseURL, "notused", "notused" );
         Pong response = influxDB.ping();
